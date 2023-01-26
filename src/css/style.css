@@ -50,15 +50,15 @@ body {
 
 }
 
-.container a {
+.descricao a {
     color: #f6961e;
 }
 
-.container a:visited {
+.descricao a:visited {
     color: #4caca8;
 }
 
-.container a:hover {
+.descricao a:hover {
     color: #8ac54b;
 }
 
@@ -82,9 +82,29 @@ body {
     transition: 0.5s all ease-in-out;
 }
 
+.container .botao-whats:hover,
+.container .botao-whats:visited {
+    color: #FFF;
+}
+
+.container .botao-whats {
+    background-color: #4caca8;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-whats:hover,
 .container .botao-trailer:hover {
     transform: scale(1.1);
 }
+
 
 .fundo-video {
     position: absolute;
